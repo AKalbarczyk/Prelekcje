@@ -1,0 +1,17 @@
+﻿button {
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+
+}
+
+.cats {
+    margin-left: auto;
+    margin-right: auto;
+}
