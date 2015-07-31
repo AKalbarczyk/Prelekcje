@@ -8,10 +8,10 @@
 
     function appConfiguration($stateProvider) {
         $stateProvider
-                .state('home.nestedView.superDeepView', {
-                    templateUrl: 'app/modules/superDeepView/SuperDeepView.html',
-                    controller: 'superDeepViewController'
-                });
+            .state('home.nestedView.superDeepView', {
+                templateUrl: 'app/modules/superDeepView/SuperDeepView.html',
+                controller: 'superDeepViewController'
+            });
     }
 
     function superDeepViewController($scope) {
