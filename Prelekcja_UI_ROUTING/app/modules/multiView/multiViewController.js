@@ -6,7 +6,7 @@
         .config(['$stateProvider', appConfiguration])
         .controller('multiViewController', ['$scope', multiViewController]);
 
-    function appConfiguration($stateProvider) {        
+    function appConfiguration($stateProvider) {
         $stateProvider
             .state('multiView', {
                 url: '/multiView',

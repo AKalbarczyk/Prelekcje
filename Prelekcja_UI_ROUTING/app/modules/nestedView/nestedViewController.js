@@ -8,10 +8,10 @@
 
     function appConfiguration($stateProvider) {
         $stateProvider
-                .state('home.nestedView', {                  
-                    templateUrl: 'app/modules/nestedView/NestedView.html',
-                    controller: 'nestedViewController'
-                });
+            .state('home.nestedView', {
+                templateUrl: 'app/modules/nestedView/NestedView.html',
+                controller: 'nestedViewController'
+            });
     }
 
     function nestedViewController($scope) {

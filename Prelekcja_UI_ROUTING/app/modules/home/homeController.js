@@ -8,14 +8,14 @@
 
     function appConfiguration($stateProvider) {
         $stateProvider
-                .state('home', {
-                    url: '/home',
-                    templateUrl: 'app/modules/home/HomeView.html',
-                    controller: 'homeController'
-                });
+            .state('home', {
+                url: '/home',
+                templateUrl: 'app/modules/home/HomeView.html',
+                controller: 'homeController'
+            });
     }
 
     function homeController($scope) {
-        
+
     }
 }());
